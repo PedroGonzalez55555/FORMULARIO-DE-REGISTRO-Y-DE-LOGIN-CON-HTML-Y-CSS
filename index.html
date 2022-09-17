@@ -1,0 +1,52 @@
+<!--formulario login registro con 
+html css javascript
+el usuario ingresa nombre email contraseña 
+con verificacion de usuario, base de datos
+ y php
+Una vez ingresados los datos correctos
+ valida el ingreso de los datos(javascript)
+si el usuario no tiene una cuenta
+si el usuario no tiene una cuenta
+datos en MySQL--UNA VEZ REGISTRADO
+
+----------------------------------------
+        ESTRUCTURA DEL FORMULARIO
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="script/script.js">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form sign-up-container">
+            <h1>REGISTRARSE</h1>
+            <form class="formulario">
+                <input type="text" placeholder="nombre" id="nombre">
+                <input type="email" placeholder="email" id="email">
+                <input type="password" placeholder="Contraseña" id="password">
+                <a class="ok-account">¿Ya tienes una cuenta?</a>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+    
+        <div class="form sign-in-container">
+            <h1>INICIAR SESION</h1>
+            <form class="formulario2">
+                <input type="email" placeholder="Email" id="email2">
+                <input type="password" placeholder="Contraseña" id="password2">
+                <a class="no-account">¿aun no tienes cuenta?</a>
+                <input type="submit" value="Iniciar Sesion">
+            </form>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
+
